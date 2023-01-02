@@ -1,0 +1,15 @@
+.bg-image{
+    height: 500px;
+    background-image: url("../image/me/amir.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: dimgrey;
+}
+.bg-image h3{
+ color: aliceblue;
+ font-size: 60px;
+ text-align: center;
+ padding-top: 200px;
+}

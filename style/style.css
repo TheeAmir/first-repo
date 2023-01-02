@@ -1,0 +1,43 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.card{
+    margin:10px;
+    padding: 20px;
+    width: 350px;
+    background-color:cadetblue;
+    display: flex;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.card h3,p,a{
+    margin: 10px;
+    
+}
+.card h3{
+    text-align: center;
+    text-transform: uppercase;
+    /* font-weight: 900; */
+}
+.card a{
+    padding: 8px;
+    border: none;
+    background-color:chocolate;
+    text-decoration: none;
+    color:white;
+    border-radius: 10px;
+    box-shadow:5px 8px rgb(185, 181, 181);
+    
+}
+.card span{
+    color: crimson;
+}
+.list-item{
+    background-color:cornflowerblue;
+}
+.list-item ul,li{
+    display: inline-block;
+    padding: 10px;
+}
